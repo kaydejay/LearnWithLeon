@@ -1,32 +1,31 @@
-/* Please make the anchor tags gold, 20px, and have a purple background */
+/* NO classes or IDs */
 
+/* Please make only "Just kidding!" yellow */
 
-a {
-    color: gold;
+section h2 {
+    color: yellow;
+}
+
+/* Please make only "twitter" red and 20px */
+
+aside a {
+    color: red;
     font-size: 20px;
-    background-color: purple;
 }
 
-/* Please make the section have a height of 200px, a 10px thick blue border, and a light orange background */
+/* Please make "Really hot" purple & "Like WILD hot" larger and blue  */
 
-section {
-    height: 200px;
-    border: 10px solid blue;
-    background-color: orange;
+article h2 {
+    color: purple;
 }
 
-/* Please make the aside have a height of 300px, a thin red border, and a teal background  */
-
-aside {
-    height: 300px;
-    border: 2px solid red;
-    background-color: teal;
+article h2 + h2 {
+    color: blue;
+    font-size: 30px;
 }
 
-/* Please make the aside paragraph have white text, 18px, and a red underline */
+/* Please make only bob and pizza green */
 
-aside p {
-    color: white;
-    font-size: 18px;
-    text-decoration: underline red;
+ul + ul a {
+    color: green;
 }
