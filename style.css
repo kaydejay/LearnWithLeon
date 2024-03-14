@@ -1,24 +1,32 @@
-/* NO classes or IDs */
-/* Please Make only World and Zebra Blue */
+/* Please make the anchor tags gold, 20px, and have a purple background */
 
-section > h2 {
-    color: blue;
-}
 
-/* Please Make only Zebra Purple */
-
-section h2 + h2 {
-    color: purple;
-}
-
-/* Please Make only Hufflepuff Gold */
-
-article h2 + h2 {
+a {
     color: gold;
+    font-size: 20px;
+    background-color: purple;
 }
 
-/* Please keep Hufflepuff Gold and make ONLY Unicorn Gray  */
+/* Please make the section have a height of 200px, a 10px thick blue border, and a light orange background */
 
-article > h2 {
-    color: gray;
+section {
+    height: 200px;
+    border: 10px solid blue;
+    background-color: orange;
+}
+
+/* Please make the aside have a height of 300px, a thin red border, and a teal background  */
+
+aside {
+    height: 300px;
+    border: 2px solid red;
+    background-color: teal;
+}
+
+/* Please make the aside paragraph have white text, 18px, and a red underline */
+
+aside p {
+    color: white;
+    font-size: 18px;
+    text-decoration: underline red;
 }
