@@ -1,26 +1,45 @@
-/* Please give the h1 some padding on three sides, margin on just one side, and a light purple background with light blue lettering */
-h1 {
-    padding: 5px 5px 5px 0;
-    margin-bottom: 5px;
-    background: plum;
-    color: lightblue;
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
 }
-/* Please give the h2 significant padding on the top and bottom, a dark green border on the top and bottom, and an orange background */
-h2 {
-    padding: 100px 0;
-    border-top: 5px solid darkgreen;
-    border-bottom: 5px solid darkgreen;
-    background: orange;
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
 }
-/* Please give the section a thick blue border, height of 300px, and more the 400px of margin on the top */
-	section {
-        border: 20px solid blue;
-        height: 300px;
-        margin-top: 500px;
-    }
-/* Please make the spans have thin yellow borders and equal padding / margin on all sides */
-    span {
-        border: 2px solid yellow;
-        padding: 2px;
-        margin: 2px;
-    }
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav, main, aside{
+  float: left;
+  width: 10%
+}
+main {
+  width: 50%;
+}
+aside{
+  width: 40%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
