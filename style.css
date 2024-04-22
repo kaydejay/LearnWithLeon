@@ -21,51 +21,184 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header, section {
-  border: 1px solid black;
+
+* {
+    margin: 0;
 }
 
-header {
-  float: left;
-  width: 100%;
+header nav {
+    background: rgb(100, 100, 125);
+    color: white;
+    height: 50px;
 }
 
-header *{
-  margin: 0 20px;
+header nav * {
+    text-decoration: none;
+    color: white;
+    margin: 10px 50px;
 }
 
-nav * {
-  float: left;
-}
-nav ul {
-  list-style: none;
+header nav .classes .HireUs {
+    float: left;
+    margin: 0 50px;
 }
 
-section {
-  margin-top: 200px;
-  width: 50%;
-  float: left;
+header nav .Donate {
+    float: right;
 }
 
-section + section ul *{
-  list-style: none;
-  float: left;
-  margin: 0 10px;
+header img {
+    object-position: center;
 }
 
-section img {
-  width: 100%;
+.top {
+    background: rgb(100, 100, 125);
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 10px 0;
 }
 
+.top * {
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+}
 
-/******************************************
+.top p {
+    padding: 20px 75px;
+}
+
+.why {
+    background: white;
+    color: black;
+    text-align: center;
+    height: 150px;
+    margin: 50px 0;
+}
+
+.why h2{
+    margin-bottom: 20px;
+}
+
+.twocolumns {
+    background:lightgray;
+    color: black;
+    height: 300px;
+}
+
+.twocolumns section {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.twocolumns section * {
+    margin: 20px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.twocolumns section p {
+    margin: 30px;
+}
+.twocolumns section a {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.volunteer {
+    background:white;
+    color: black;
+    text-align: center;
+    height: 250px;
+}
+
+.volunteer * {
+    padding: 30px 0;
+}
+
+.volunteer a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.volunteer p {
+    margin: -20px 0 30px 0;
+}
+
+.bottom {
+    background: rgb(14, 14, 47);
+    color: white;
+    height: 200px;
+    text-decoration: none;
+}
+
+.bottom a {
+    color: white;
+}
+
+.bottom .left {
+    float: left;
+    margin: 20px 30px;
+}
+
+.bottom .left h4 {
+    color: grey;
+}
+
+.bottom .left * {
+    margin: 10px 15px;
+    text-decoration: none;
+}
+
+.bottom .right {
+    float: right; 
+    padding-top: 30px;
+}
+
+.bottom .right * {
+    display: block;
+    padding: 0 30px 0 0;
+}
+
+.bottom .right .title {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.bottom .right .address {
+    color: grey;
+}
+
+.bottom .right .email {
+    font-weight: 700;
+}
+
+footer {
+    background: rgb(14, 14, 47);
+    color: white;
+    height: 50px;
+    text-decoration: none;
+    border-top: 2px solid white;
+    padding: 0 20px;
+}
+
+footer img {
+    float: right;
+}
+
+footer p {
+    padding-top: 10px;
+}
+
+/******************************************/
 /* ADDITIONAL STYLES
 /*******************************************/
