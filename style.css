@@ -24,131 +24,356 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-* {
-    margin:0;
-    float: left;
-}
-
 header {
-    background: rgb(38, 38, 60);
-    color: grey;
-    height: 75px;
+  background-color: white;
+  border:1px solid black;
+  /* display: inline-block; */
+  width: 100%;
+  /* float: left; */
+  height: 90px;
+  padding-top: 18px;
 }
 
-header img {
-    float: left;
-    margin-top: 20px;
-    margin-left: 20px;
+header nav>img {
+  margin-left: 7.5%;
+}
+
+/* header img { 
+  margin-top: 3%;
+  margin-bottom: 3%;
+} */
+
+header nav {
+  width: 100%;
+}
+
+header nav * {
+  text-decoration: none;
+  list-style: none;
+  /* display: inline; */
+  float: left; /*added*/
+  color: black;
+  text-transform: uppercase;
+  margin-left: 0.75%;
+  margin-right: 0.75%;
 }
 
 header nav ul {
-    padding-left: 700px;
-    padding-top: 20px;
+  width: 80%;
+  /* height: fit-content; */
 }
 
-header nav *{
-    color: grey;
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    padding: 5px 7.5px 0 7.5px;
+header ul img {
+  transform:translateY(-25px);
+  width: 60px;
+  height: 60px;
 }
 
-.top {
-    background: rgb(38, 38, 60);
-    padding-top: 100px;
+main {
+  background-color: rgb(136, 129, 129);
+  border: 1px solid red;
+  text-transform: uppercase;
+  color: white;
+  height: 650px;
+  width: 100%;
+  margin-top: 1%;
+  /* float: left; */
 }
 
-.top > section h1 {
-    color: white;
+main * {
+  margin-left: 12%;
+  text-decoration: none;
+  list-style: none;
+  color: white;
 }
 
-.top > section p {
-    color: grey;
+main h1 {
+  margin-top: 10%;
 }
 
-.top >section {
-    width: 50%;
-    height: 250px;
+main > p {
+  margin: 2% auto 2% 12%;
 }
 
-.top > section {
-    padding-left: 50px;
+.Services {
+  border: 1px solid white;
+  display: inline-block;
+  background-color: black;
+  padding: 1%;
+  margin: 1% auto;
 }
 
-.top > section h1 {
-    font-size: x-large;
-    padding-bottom: 20px;
-    width: 45%;
+.Visit {
+  background-color: black;
+  /* display: block; */
+  /* padding: 20% auto; */
+  float: left;
+  width: 20%;
 }
 
-.top > section p {
-    padding-bottom: 30px;
+.Visit * {
+  display: block;
+  margin-top: 10%;
 }
 
-.top > section a {
-    text-decoration: none;
-    padding: 15px;
-    border: 1px solid white;
-    margin-bottom: 20px;
-    color: white;
+.Visit a {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 4% 6%;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
-.online-logos {
-    float: right;
+.twenty {
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.online-logos img {
-    margin: 50px 0;
-    padding: 0 20px;
+.for {
+  display: inline;
+  margin-left: 40%;
+  padding-top: -20%;
+  /* margin-left: -20%; */
 }
 
-.lefthalf {
-    width: 50%;
-    color: rgb(92, 91, 91);
-    border: 1px solid red;
-    padding-left: 50px;
-    padding-right: 250px;
-    height: 500px;
+ .buttons * { 
+  margin: 0 auto; 
 }
 
-.lefthalf h4 {
-    padding-bottom: 10px;
+.right { 
+  float: right;
+  margin-right: 3%;
+  margin-top: 12%;
 }
 
-.lefthalf h2 {
-    padding-bottom: 10px;
+.left {
+  float: right;
+  margin-right: 1%;
+  margin-top: 12%;
 }
 
-.lefthalf p {
-    padding-bottom: 10px;
-    line-height: 150%;
+.three {
+  border: 1px solid green;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  float: left;
 }
 
-.lefthalf a {
-    margin-top: 50px;
-    text-decoration: none;
-    padding: 15px;
-    border: 1px solid darkblue;
-    margin-bottom: 20px;
-    color: black;
+.three img {
+  width: 100px;
+  height: 100px;
 }
 
-.righthalf {
-    float: right;
-    width: 50%;
-    border: 1px solid green;
+.three h3 {
+  text-transform: uppercase;
 }
 
-.righthalf section {
-    width: 250px;
-    height: 250px;
-    align-content: center;
-    padding-left: 100px;
+.three {
+  text-align: center;
+  padding-top: 10%;
 }
 
-.righthalf section * {
+.three p {
+  padding-bottom: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 2;
+}
 
+.three .stylist {
+  width: 33.3333%;
+  float: left;
+}
+
+.three .chair {
+  width: 33.3333%;
+  float: left;
+}
+
+.three .lotion {
+  width: 33.3333%;
+  float: left;
+}
+
+.momentum {
+  background-color: rgb(223, 218, 218);
+  float: left;
+  border: 1px solid purple;
+  width: 100%;
+}
+
+.momentum h2 {
+  margin-top: 15%;
+  text-transform: uppercase;
+}
+
+.momentum a {
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  background-color: black;
+  padding: 3% 6%;
+}
+
+.momentum .text {
+  float: left;
+  width: 50%;
+  margin-left: 7.5%;
+  margin-bottom: 10%;
+}
+
+.momentum .video {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 40%;
+  float: right;
+  margin-right: 2.5%;
+}
+
+.momentum p {
+  margin-bottom: 10%;
+  width: 75%;
+  line-height: 2;
+}
+
+.people {
+  margin: 5% auto;
+  width: 100%;
+  /* float: left; */
+  border: 1px solid blue;
+  background-color: white;
+}
+
+.people img {
+  border: 1px solid pink;
+  /* margin-left: 15%; */
+}
+
+.title {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  width: 55%;
+  /* margin: 0 auto; */
+  padding: 2% 10%;
+  margin-top: -3%;
+  margin-left: 35%;
+}
+
+.alita {
+  border: 2px solid red;
+  width: 33.3333%;
+  float: left;
+}
+
+.williams { 
+  margin-left: 40%;
+}
+
+.ayeshal {
+  border: 1px solid purple;
+  width: 33.3333%;
+  float: left;
+}
+
+.lake{ 
+  margin-left: 15%;
+}
+
+.michelle {
+  border: 1px solid blue;
+  width: 33.3333%;
+  float: left;
+}
+
+.smith {
+  margin-left: -10%;
+}
+
+.michelletitle {
+  margin-left: -5%;
+}
+
+.offer {
+  width: 100%;
+  float: left;
+  background-color: rgb(223, 218, 218);
+  border: 1px solid teal;
+  margin-top: 5%;
+  text-transform: uppercase;
+  height: 300px;
+  line-height: 2;
+}
+
+.offer a {
+  text-decoration: none;
+  list-style: none;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 4px;
+  margin-top: 1%;
+}
+
+.offer h3 {
+  margin-top: 3%;
+}
+
+.ten {
+  font-weight: bold;
+}
+
+.offer * {
+    margin-left: 5%;
+    display: block;
+}
+
+.lookbook {
+  width: 100%;
+  border: 1px solid orchid;
+  /* margin-top: 5%; */
+  float: left;
+}
+
+.lookbooktext {
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid black;
+  font-size: xx-large;
+}
+
+
+.imgs {
+  width: 100%;
+  border: 1px solid greenyellow;
+  float: left;
+}
+
+.imgleft{
+  border: 1px solid crimson;
+  width: 33.3333%;
+  float: left;
+  margin-left: 15%;
+}
+
+.imgcenter{
+  width: 33.3333%;
+  float: left;
+  border: 2px solid blue;
+  margin-left: -10%;
+}
+
+
+.imgright{
+  width: 33.3333%;
+  float: left;
+  margin-left: -10%;
 }
 
 /******************************************
