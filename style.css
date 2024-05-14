@@ -21,79 +21,52 @@
 /* BASE STYLES
 /*******************************************/
 
+
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+main section, .bottom section{
+  width: 33.3333%;
+  height: 300px;
+  border: 1px solid black;
+  float: left;
+}
+.bottom section{
+  width: 50%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-/* Please make the someText 12px, moreText 16px, and lastText 27px */
+/* On mobile, please make all sections stack  */
 
-.someText {
-  font-size: 12px;
-}
+@media all and (max-width: 500px) {
+  main section, .bottom section {
+    width: 100%;
+    }
+  }
+/* On tablet, please make the sections in main stack  */
 
-.moreText {
-  font-size: 16px;
-}
+@media all and (max-width: 850px) {
+  main section {
+    width: 100%;
+    }
+  }
 
-.lastText {
-  font-size: 27px;
-}
+/* On laptop, please keep the normal layout, but everything should be light green */
 
-/* Please double the font-size of someText, moreText, and lastText (still using px) */
+@media all and (min-width:850px) {
+  main, .bottom {
+    background: lime;
+    }
+  }
 
-.someText {
-  font-size: 24px;
-}
+/* On larger screens, please keep the normal layout, but everything should be light blue */
 
-.moreText {
-  font-size: 32px;
-}
-
-.lastText {
-  font-size: 54px;
-}
-
-
-/* Please set a base font-size on heyo, and make someText 12px, moreText 16px, and lastText 27px BUT use ems instead of px */
-
-.heyo {
-  font-size: 10px;
-}
-
-.someText {
-  font-size: 1.2em;
-}
-
-.moreText {
-  font-size: 1.6em;
-}
-
-.lastText {
-  font-size: 2.7em;
-}
-
-/* Please double the size of someText, moreText, and lastText using ems, but only make one change */
-
-.heyo {
-  font-size: 20px;
-}
-
-/* Please wrap lastText in a new section with the class of utOh and give it a base font size of 40px */
-
-.utOh {
-  font-size: 40px;
-}
-
-/* Please fix your doubling of lastText, buy converting to rems */
-
-html {
-  font-size: 62.5%;
-}
-
-.lastText {
-  font-size: 2.7rem;
-}
+@media all and (min-width:1024px) {
+  main, .bottom {
+    background: lightblue;
+    }
+  }
