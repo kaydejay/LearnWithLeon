@@ -1,72 +1,38 @@
-/* Box Model Hack */
-* {
-  box-sizing: border-box;
-}
-
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
-
 /******************************************
-/* BASE STYLES
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
 /*******************************************/
 
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-main section, .bottom section{
-  width: 33.3333%;
-  height: 300px;
-  border: 1px solid black;
-  float: left;
+h1, h2{
+  text-align: center;
 }
-.bottom section{
-  width: 50%;
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul{
+  width: 100px;
+  height: 250px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+li{
+  text-align: center;
+  width: 94px;
+  height: 49px;
+  border: 1px solid black;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-/* On mobile, please make all sections stack  */
-
-@media all and (max-width: 500px) {
-  main section, .bottom section {
-    width: 100%;
-    }
-  }
-/* On tablet, please make the sections in main stack  */
-
-@media all and (max-width: 850px) {
-  main section {
-    width: 100%;
-    }
-  }
-
-/* On laptop, please keep the normal layout, but everything should be light green */
-
-@media all and (min-width:850px) {
-  main, .bottom {
-    background: lime;
-    }
-  }
-
-/* On larger screens, please keep the normal layout, but everything should be light blue */
-
-@media all and (min-width:1024px) {
-  main, .bottom {
-    background: lightblue;
-    }
-  }
