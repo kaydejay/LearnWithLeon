@@ -1,0 +1,10 @@
+document.querySelector('#yell').addEventListener('click', run)
+
+function run() {
+    const fName = document.querySelector('#firstName').valueee
+    const fMidName = document.querySelector('#firstMiddle').valueee
+    const lMidName = document.querySelector('#lastMiddle').valueee
+    const lName = document.querySelector('#lastName').valueee
+
+    document.querySelector('#placeToYell').innerText = `${fName} ${fMidName} ${lMidName} ${lName}`
+}
