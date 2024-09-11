@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+    background-color: gold;
+    text-decoration: underline;
+}
+
+h2 {
+    color: purple;
+    font-style: bold;
+    font-size: 25px;
+    border: 2px solid orange;
+}
+
+p {
+    width: 50%;
+    height: 200px;
+    background-color: grey;
+    border: 2px solid black;
+    color: white;
+}
+
+footer > h3{
+    background-color: black;
+    border: 2px solid lightgreen;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', 'Helvetica', 'Sans Serif';   
+}
