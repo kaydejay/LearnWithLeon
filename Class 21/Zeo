@@ -1,0 +1,29 @@
+//Create a stopwatch that has four properties and three methods
+
+let stopwatch = {}
+
+
+stopwatch.color = 'black'
+stopwatch.currentTime = 12
+stopwatch.brand = 'Garmin'
+stopwatch.series = 'Pro'
+
+
+stopwatch.tellTime = function (){
+
+console.log(`The current time is ${stopwatch.currentTime}.`)
+
+}
+
+stopwatch.sayColor = function (){
+
+console.log(`The color of the stopwatch is ${stopwatch.color}.`)
+
+}
+
+stopwatch.sayBrandAndSeries = function (){
+
+console.log(`The brand of the stopwatch is ${stopwatch.brand} and the series of the stopwatch is ${stopwatch.series}.`)
+
+}
+
