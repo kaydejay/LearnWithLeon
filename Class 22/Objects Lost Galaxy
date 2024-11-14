@@ -1,0 +1,56 @@
+//Create a mouse object that has four properties and three methods
+
+let mouse = {}
+
+mouse.color = 'black'
+mouse.brand = 'Logitech'
+mouse.model = 'Pro Wireless'
+mouse.wireless = true
+
+
+mouse.leftClick = function (){
+    console.log('LEFT CLICCCCK')
+}
+mouse.rightClick = function (){
+    console.log('RIGHT CLICCCCK')
+}
+mouse.scroll = function (){
+    console.log('JUMP JUMP JUMP')
+}
+
+
+let mouse2 = {}
+
+mouse2.color = 'black'
+mouse2.brand = 'Logitech'
+mouse2.model = 'MX Ergo'
+mouse2.wireless = true
+
+
+mouse2.leftClick = function (){
+    console.log('LEFT CLICCCCK')
+}
+mouse2.rightClick = function (){
+    console.log('RIGHT CLICCCCK')
+}
+mouse2.scroll = function (){
+    console.log('JUMP JUMP JUMP')
+}
+
+let mouse3 = {}
+
+mouse3.color = 'black'
+mouse3.brand = 'Apple'
+mouse3.model = 'Magic trackpad 2'
+mouse3.wireless = true
+
+
+mouse3.leftClick = function (){
+    console.log('LEFT CLICCCCK')
+}
+mouse3.rightClick = function (){
+    console.log('RIGHT CLICCCCK')
+}
+mouse3.scroll = function (){
+    console.log('SLIDE TWO FINGERS UP')
+}
