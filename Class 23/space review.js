@@ -46,9 +46,6 @@ let unoReverse = myStr => console.log( myStr.split('').reverse().join(''))
 //Create a function that takes in a string
 //Alert if the string is a palindrome or not
 
-function checkPalindrome () {
-
-}
-
-
 const palindromeCheck = str => str === alert (str.split('').reverse().join('') )
+
+palindromeCheck('racecar')
