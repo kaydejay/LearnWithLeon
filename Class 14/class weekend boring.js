@@ -12,8 +12,6 @@ if(day === "tuesday" || day === "thursday"){
   console.log("BORING")
 }
 
-
-
 document.querySelector('#check').addEventListener('click', check)
 
 function check () {
@@ -28,5 +26,4 @@ function check () {
   else{
     console.log("BORING")
   }
-
 }
