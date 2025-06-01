@@ -6,7 +6,6 @@ function convert (){
     document.querySelector('#placeToYell').innerText = temp
 }
 
-
 document.querySelector('#yell').addEventListener('click', convert)
 
 function convert () {
