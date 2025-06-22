@@ -15,8 +15,6 @@ function check() {
   }
 }
 
-
-
 function displayChanger (text) {
   document.querySelector("#placeToSee").innerText = text
 }
