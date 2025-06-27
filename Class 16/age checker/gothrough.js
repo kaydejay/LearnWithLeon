@@ -36,5 +36,3 @@ h1Holder.addEventListener('click', run)
 function run (){
     let age = document.querySelector("#danceDanceRevolution").value
 }
-
-
