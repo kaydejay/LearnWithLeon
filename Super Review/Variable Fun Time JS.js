@@ -38,4 +38,3 @@ h1Var.addEventListener('click', addTwoNums)
 function addTwoNums() {
     console.log(numVar + inputVar)
 }
-
